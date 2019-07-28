@@ -1,0 +1,18 @@
+
+
+#bg {
+    position: cover; 
+    top: 0; 
+    left: 0; 
+    overflow: scroll;
+
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  @media only screen and (max-width: 1252px) {
+    #bg img{
+      width: 100%;
+      height: auto;
+    }
+  }

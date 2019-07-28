@@ -1,0 +1,135 @@
+
+ nav ul a,
+ nav .brand-logo {
+   color: #444;
+   
+ }
+
+ /* .brand-logo{
+   font-size: 40px !important
+ } */
+
+
+
+ 
+ p {
+   line-height: 2rem;
+ }
+ 
+ .sidenav-trigger {
+   color: #26a69a;
+ }
+ 
+ .parallax-container {
+   min-height: 380px;
+   line-height: 0;
+   height: auto;
+   color: rgba(255,255,255,.9);
+   /* text-shadow: 2px 2px rgba(255,255,255,.9) */
+ }
+   .parallax-container .section {
+     width: 100%;
+   }
+ 
+ @media only screen and (max-width : 992px) {
+   .parallax-container .section {
+     position: absolute;
+     top: 40%;
+   }
+   #index-banner .section {
+     top: 10%;
+   }
+ }
+ 
+ @media only screen and (max-width : 600px) {
+   #index-banner .section {
+     top: 0;
+   }
+ }
+ 
+ .icon-block {
+   padding: 0 15px;
+ }
+ .icon-block .material-icons {
+   font-size: inherit;
+ }
+ 
+ footer.page-footer {
+   margin: 0;
+   text-align: center;
+ }
+ 
+ /* Style all font awesome icons */
+ .fa {
+   padding: 8px;
+   font-size: 40px;
+   width: 30px;
+   text-align: center;
+   text-decoration: none;
+   border-radius: 10%
+ }
+ 
+ /* Add a hover effect if you want */
+ .fa:hover {
+   opacity: 0.7;
+ }
+ 
+ /* Set a specific color for each brand */
+ 
+ /* Facebook */
+ .fa-linkedin {
+   background: #05393a;
+   color: #69a5a6 ;
+ }
+ 
+ /* Twitter */
+ .fa-twitter {
+   background: #1d5c5d;
+   color: white;}
+ 
+   .fa-github {
+     background: #1d5c5d;
+     color: white}
+ 
+  .fa-send {
+     background: #022122;
+     color: #5aa9b0;}
+
+  .fa-phone {
+     background: #69a5a6;
+     color:black
+ }
+
+ #myHeader {
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  cursor: pointer;
+  background-color: #fff !important
+
+ 
+}
+
+#logo-container {color:#044048;
+  font-family: 'Nova Oval', cursive;
+  font-size: 40px ;
+  font-weight: bolder}
+
+#btn{
+  opacity: .8;
+}
+
+
+
+#banner{color:white;
+  font: 2em sans-serif;
+  background-color:#26a69a;
+  opacity: .8;
+  padding: 5%;
+  border-radius: 50% }
+
+
+
+
+
