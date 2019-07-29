@@ -116,6 +116,15 @@
   font-size: 40px ;
   font-weight: bolder}
 
+#logo-signature {color:#044048;
+  font-family: 'Nova Oval', cursive;
+  font-size: 22px ;
+  font-weight: bolder}
+
+#copyright{
+  color: #044048
+}
+
 #btn{
   opacity: .8;
 }
